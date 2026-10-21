@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# reparto-app-
-App de Reparto Insa
-=======
 # Insa Reparto — Aplicación Móvil (React Native / Expo)
 
 Aplicación móvil interna para repartidores y transportistas de **Insa** (gestión de logística, distribución y reparto). Proporciona control de inventario de camión en playa (*Control de Playa*), gestión dinámica de la hoja de ruta diaria (*Hoja de Ruta*), registro de visitas y ventas en ruta (con/sin transacción, cobros y envases), alta rápida de clientes y sincronización bidireccional *offline-first* con **Odoo 18** (`insa_reparto`).
