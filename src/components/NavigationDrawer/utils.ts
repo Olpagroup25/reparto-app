@@ -1,0 +1,2 @@
+export const DEFAULT_DRAWER_WIDTH = 320;
+export const DRAWER_ANIMATION_DURATION = 250;

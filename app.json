@@ -1,0 +1,81 @@
+{
+  "expo": {
+    "name": "Insa Reparto",
+    "slug": "app-movil-reparto-rn",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.insa.dev.appmovilrepartorn",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "imageWidth": 200
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.insa.dev.appmovilrepartorn",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.CAMERA"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-secure-store",
+      "expo-sqlite",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#ffffff",
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "La aplicación necesita acceso a tus fotos para adjuntar comprobantes de gastos.",
+          "cameraPermission": "La aplicación necesita acceso a la cámara para tomar fotos de comprobantes de gastos.",
+          "microphonePermission": false
+        }
+      ]
+    ],
+    "extra": {
+      "environment": "production",
+      "environments": {
+        "local": {
+          "odooBaseUrl": "http://192.168.10.101:8069",
+          "odooDb": "db_odoo_poc_1"
+        },
+        "staging": {
+          "odooBaseUrl": "https://olpagroup25-insa-pruebas-38005243.dev.odoo.com",
+          "odooDb": "olpagroup25-insa-pruebas-38005243"
+        },
+        "production": {
+          "odooBaseUrl": "https://olpagroup25-insa-odoo.odoo.com/",
+          "odooDb": "olpagroup25-insa-main-37307437"
+        }
+      },
+      "odooBaseUrl": "https://olpagroup25-insa-odoo.odoo.com/",
+      "odooDb": "olpagroup25-insa-main-37307437",
+      "eas": {
+        "projectId": "a2699408-f756-4c75-9017-186d4385a8ee"
+      }
+    }
+  }
+}
