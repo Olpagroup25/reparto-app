@@ -68,11 +68,11 @@
         },
         "production": {
           "odooBaseUrl": "https://olpagroup25-insaa.odoo.com",
-          "odooDb": "olpagroup25-insa-main-37307437"
+          "odooDb": "olpagroup25-insa-main-40321668"
         }
       },
       "odooBaseUrl": "https://olpagroup25-insaa.odoo.com",
-      "odooDb": "olpagroup25-insa-main-37307437",
+      "odooDb": "olpagroup25-insa-main-40321668",
       "eas": {
         "projectId": "a2699408-f756-4c75-9017-186d4385a8ee"
       }
